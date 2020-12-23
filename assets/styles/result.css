@@ -1,0 +1,9 @@
+.result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.result.-hidden {
+	display: none;
+}

@@ -1,0 +1,16 @@
+.question {
+	display: block;
+}
+
+.question.-hidden {
+	display: none;
+}
+
+.question__count {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.question__text {
+	margin-left: 5px;
+}

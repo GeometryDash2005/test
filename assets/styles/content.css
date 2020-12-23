@@ -1,0 +1,44 @@
+button {
+	padding: 7px 15px;
+	border: 0;
+	margin-bottom: 10px;
+	background-color: #fff;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+button.result__restart {
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+button.-main {
+	background-color: #f2ebe5;
+}
+
+.content {
+	background-image: url(../img/furion.gif);
+}
+
+.result__image {
+	max-width: 300px;
+}
+
+.result__description {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 650px) {
+	.result__image {
+		max-width: 250px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.result__image {
+		max-width: 200px;
+	}
+}
